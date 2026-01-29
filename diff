@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homestead Knowledge Hub</title>
+  <style>
+    :root {
+      --green: #2f6f3e;
+      --light: #f6f7f5;
+      --dark: #1e1e1e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--green);
+      color: white;
+      padding: 1rem 2rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #ddd;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      margin-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Homestead Knowledge Hub</h1>
+  <p>Clear, practical information for farming and homesteading</p>
+  <nav>
+    <a href="#basics">Basics</a>
+    <a href="#gardening">Gardening</a>
+    <a href="#animals">Animals</a>
+    <a href="#soil">Soil & Compost</a>
+    <a href="#tools">Tools</a>
+    <a href="#planning">Planning</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="basics">
+    <h2>Basics</h2>
+    <p>This section covers the fundamentals of homesteading and small-scale farming.</p>
+    <div class="card-grid">
+      <div class="card">
+        <h3>What is Homesteading?</h3>
+        <p>Homesteading is the practice of producing food and resources for yourself, often on a small scale.</p>
+      </div>
+      <div class="card">
+        <h3>Space & Time Requirements</h3>
+        <p>How much land and daily time different setups actually need.</p>
+      </div>
+      <div class="card">
+        <h3>Common Beginner Mistakes</h3>
+        <p>Overplanting, overspending, and ignoring soil quality.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gardening">
+    <h2>Gardening</h2>
+    <ul>
+      <li>Raised beds vs in-ground gardens</li>
+      <li>Planting by season</li>
+      <li>Watering basics</li>
+      <li>Crop rotation</li>
+    </ul>
+  </section>
+
+  <section id="animals">
+    <h2>Animals</h2>
+    <h3>Chickens</h3>
+    <ul>
+      <li>Coop size & setup</li>
+      <li>Feed types</li>
+      <li>Egg laying cycles</li>
+      <li>Common health problems</li>
+    </ul>
+  </section>
+
+  <section id="soil">
+    <h2>Soil & Compost</h2>
+    <ul>
+      <li>Soil types</li>
+      <li>Improving poor soil</li>
+      <li>Composting basics</li>
+      <li>pH and nutrients</li>
+    </ul>
+  </section>
+
+  <section id="tools">
+    <h2>Tools & Infrastructure</h2>
+    <ul>
+      <li>Must-have hand tools</li>
+      <li>What not to buy</li>
+      <li>Fencing basics</li>
+      <li>Irrigation options</li>
+    </ul>
+  </section>
+
+  <section id="planning">
+    <h2>Planning & Economics</h2>
+    <ul>
+      <li>Garden planning</li>
+      <li>Feed cost estimation</li>
+      <li>Seasonal task lists</li>
+      <li>Scaling up responsibly</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>Free educational resource • Built to grow over time</p>
+</footer>
+
+</body>
+</html>
